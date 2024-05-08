@@ -1,0 +1,109 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/id/499644675/photo/computer-in-a-library-with-many-books-and-shelves.jpg?s=2048x2048&w=is&k=20&c=9TQctHP6bXxlgd7KeSZFe-Ag175yKaSCGDxUhLQis0w=);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-content: center;
+  
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  
+   
+}
+.container{
+   
+    width: 400px;
+    height: 350px;
+    
+    padding: 10px 20px 20px 50px;
+    border-radius: 50px;
+    background-color: rgba(245, 245, 245, 0.289);
+    backdrop-filter: blur(2px);
+    transition-duration: 0.7s;
+    
+    
+  }
+  .container:hover{
+    box-shadow: 0px 0px 20px wheat;
+    transition-duration: 0.5s
+  }
+
+  
+  
+  input{
+    width: 80%;
+    height: 35px;
+    padding: 4px;
+    background-color: rgba(240, 255, 255, 0.299);
+    border: none;
+    font-size: larger;
+    font-weight: 700;
+  }
+  label{
+    font-weight: 900;
+  }
+ 
+  a {
+    height: 10px;
+    width: 20px;
+    display: inline;
+    position: relative;
+    margin-left: 10px;
+    text-decoration: none;
+    
+    font-weight: bolder;
+   
+    color: blue;
+}
+ a:hover {
+    font-weight: bolder;
+    text-decoration-line: none;
+    text-decoration-color: lightblue;
+}
+button{
+    position: relative;
+    margin: 10px;
+    margin-bottom:10px;
+    padding: 2px;
+    height: 30px;
+    width: 30%;
+    margin-left: 10px;
+    top: -15px;
+    border-radius: 10px;
+}
+button:hover{
+    cursor: pointer;
+      box-shadow: 0px 0px 20px green;
+    transition-duration: 0.5s
+}
+.eye{
+    cursor: pointer;
+   
+}
+.logo{
+	height: 10px;
+	width: 90px;
+	display: inline;
+	position: relative;
+	top: -30px;
+	justify-content: center;
+	left:30px;
+	color: #ceb224;
+	
+}
+h4{
+	margin-top: 10px;
+}

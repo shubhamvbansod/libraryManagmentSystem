@@ -1,0 +1,76 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1569728723358-d1a317aa7fba?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-content: center;
+  
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  
+   
+}
+.container{
+   
+    width: 800px;
+    height: 500px;
+    
+    padding: 10px 20px 20px 50px;
+    border-radius: 50px;
+    background-color: rgba(245, 245, 245, 0.289);
+    backdrop-filter: blur(2px);
+    transition-duration: 0.7s;
+    font-size: 20px;
+    
+    
+    
+  }
+  .container:hover{
+    box-shadow: 0px 0px 20px wheat;
+    transition-duration: 0.5s
+  }
+
+
+.show-data table, th, td {
+	margin: 30px ;
+	padding:3px;
+	
+ 
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgb(86, 70, 40);
+    transition-duration: 0.5s
+}
+a{
+	text-decoration: none;
+	color: blue;
+}
+    tr:hover {
+        background-color: #dddddd;
+    }
+    /* Auto capitalize table data */
+    td {
+        text-transform: capitalize;
+    }
+    
+    .btn a{
+  	padding: 15px;
+    
+    }
+   #add-book{
+   
+   } 

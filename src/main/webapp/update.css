@@ -1,0 +1,90 @@
+@charset "ISO-8859-1";
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1569728723358-d1a317aa7fba?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-content: center;
+  
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  
+   
+}
+.container{
+   
+    width: 500px;
+    height: 350px;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: rgba(245, 245, 245, 0.289);
+    backdrop-filter: blur(2px);
+    transition-duration: 0.7s;
+    margin-top: 10px;
+    padding-top: 10px;
+    
+  }
+  .container:hover{
+    box-shadow: 0px 0px 20px wheat;
+    transition-duration: 0.5s
+  }
+
+  
+  
+  input{
+    margin-top: 20px;
+    left: 20px;
+    position: relative;
+    right: 10px;
+    border-radius: 10px;
+    width: 65%;
+    height: 35px;
+    padding: 4px;
+    background-color: rgba(240, 255, 255, 0.299);
+    border: none;
+    font-size: larger;
+    font-weight: 700;
+  
+  }
+  input:hover{
+    box-shadow: 0px 0px 20px gold;
+  }
+  label{
+    margin: 5px;
+    font-weight: 600;
+  }
+  button{
+    position: relative;
+    margin: 10px;
+    margin-bottom:10px;
+    padding: 2px;
+    height: 30px;
+    width: 30%;
+    margin-left: 50px;
+    top: 10px;
+    border-radius: 10px;
+   
+
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgb(86, 70, 40);
+    transition-duration: 0.5s
+}
+a{
+	text-decoration: none;
+	color: blue;
+}
